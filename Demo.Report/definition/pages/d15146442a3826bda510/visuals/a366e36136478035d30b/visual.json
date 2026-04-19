@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "ec9718901907b4026d62",
+  "name": "a366e36136478035d30b",
   "position": {
-    "x": 533.65872094592771,
-    "y": 255.01174310935937,
-    "z": 6000,
-    "height": 431.65402370218391,
-    "width": 541.12247928083582,
-    "tabOrder": 6000
+    "x": 411.75066814242905,
+    "y": 165.44664309046243,
+    "z": 0,
+    "height": 361.99227924304188,
+    "width": 536.146640390897,
+    "tabOrder": 0
   },
   "visual": {
-    "visualType": "clusteredBarChart",
+    "visualType": "donutChart",
     "query": {
       "queryState": {
         "Category": {
@@ -23,11 +23,11 @@
                       "Entity": "financials"
                     }
                   },
-                  "Property": "Product"
+                  "Property": "Country"
                 }
               },
-              "queryRef": "financials.Product",
-              "nativeQueryRef": "Product",
+              "queryRef": "financials.Country",
+              "nativeQueryRef": "Country",
               "active": true
             }
           ]
@@ -44,14 +44,14 @@
                           "Entity": "financials"
                         }
                       },
-                      "Property": "Sales"
+                      "Property": "Profit"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(financials.Sales)",
-              "nativeQueryRef": "Sum of Sales"
+              "queryRef": "Sum(financials.Profit)",
+              "nativeQueryRef": "Sum of Profit"
             }
           ]
         }
@@ -68,7 +68,7 @@
                         "Entity": "financials"
                       }
                     },
-                    "Property": "Sales"
+                    "Property": "Profit"
                   }
                 },
                 "Function": 0
@@ -79,13 +79,6 @@
         ],
         "isDefaultSort": true
       }
-    },
-    "objects": {
-      "general": [
-        {
-          "properties": {}
-        }
-      ]
     },
     "drillFilterOtherVisuals": true
   }

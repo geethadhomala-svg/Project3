@@ -4,10 +4,10 @@
   "position": {
     "x": 285.22805424869819,
     "y": 116.1277062537342,
-    "z": 1,
+    "z": 1000,
     "height": 89.194123854670934,
     "width": 257.97685053350978,
-    "tabOrder": 1
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "card",
@@ -179,28 +179,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "812a93408afa345dab84",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "financials"
-                  }
-                },
-                "Property": "Profit"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }
